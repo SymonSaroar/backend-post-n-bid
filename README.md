@@ -19,3 +19,4 @@ ts-node ./src/index.ts
   DB_PASS: password
   DB_NAME: Database Name
 ```
+You can use a `.env` file in project root directory to set the variables
