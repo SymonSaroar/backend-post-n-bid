@@ -20,3 +20,12 @@ ts-node ./src/index.ts
   DB_NAME: Database Name
 ```
 You can use a `.env` file in project root directory to set the variables
+
+The local database that was used during development is in folder `database-test`
+
+put this folder in your `mysql` folder
+I.E. 
+```
+xampp/var/mysql/database-test
+C:\xampp\mysql\data\database-test
+```
