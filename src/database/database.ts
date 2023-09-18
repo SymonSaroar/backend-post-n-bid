@@ -3,10 +3,10 @@ import dotenv from 'dotenv'
 
 dotenv.config()
 const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'bidder',
-  password: '',
-  database: 'database_test'
+  host: process.env.DB_HOST,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASS,
+  database: process.env.DB_NAME
 })
 
 console.log(process.env.DB_HOST, process.env.DB_NAME)
